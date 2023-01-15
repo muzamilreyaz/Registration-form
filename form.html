@@ -30,32 +30,36 @@ cursor:pointer;
 <body style="font-family:arial;
 font-size:17px;
 font-weigth:500;">
-<div> 
-<p>First Name:</p> <input type="text" class="input-box" maxlength="20">
-</div>
-<br>
-<br>
-<div> 
-<p>Last Name:</p> <input type="text" class="input-box" maxlength="20">
-</div>
-<br>
-<br>
-<div>
-<p>Gender:  <input type="radio" name="gender">Male   <input type="radio" name="gender">Female    <input type="radio" name="gender">Other 
-</p> 
-</div>
-<br>
-<br>
-<div> 
-<p>Address:</p> <input type="text" class="input-box" maxlength="50">
-</div>
-<br>
-<br>
-<div>
-<p>District:</p> <input type="text" class="input-box" maxlength="20">
-</div>
-<br>
-<br>
-<div><button>Submit</button></div>
+<form>
+
+    <div> 
+        <p>First Name:</p> <input type="text" class="input-box" maxlength="20" autofocus required>
+        </div>
+        <br>
+        <br>
+        <div> 
+        <p>Last Name:</p> <input type="text" class="input-box" maxlength="20">
+        </div>
+        <br>
+        <br>
+        <div>
+        <p>Gender:  <input type="radio" name="gender">Male   <input type="radio" name="gender">Female    <input type="radio" name="gender" required>Other 
+        </p> 
+        </div>
+        <br>
+        <br>
+        <div> 
+        <p>Address:</p> <input type="text" class="input-box" maxlength="50" required>
+        </div>
+        <br>
+        <br>
+        <div>
+        <p>District:</p> <input type="text" class="input-box" maxlength="20">
+        </div>
+        <br>
+        <br>
+        <div><button>Submit</button></div>
+
+</form>
 </body>
 </html>
